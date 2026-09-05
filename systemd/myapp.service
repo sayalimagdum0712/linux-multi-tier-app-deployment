@@ -1,0 +1,15 @@
+[Unit]
+Description=My Linux Web Application
+After=network.target
+
+[Service]
+User=appuser
+Group=appuser
+WorkingDirectory=/srv/myapp
+Environment="PATH=/srv/myapp/venv/bin"
+ExecStart=/srv/myapp/venv/bin/python /srv/myapp/app.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
