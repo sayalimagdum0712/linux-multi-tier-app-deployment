@@ -1,4 +1,4 @@
-# Linux Multi-Tier Web Application Deployment
+# Linux Multi-Tier Web Application Deployment 🐧
 
 A hands-on Linux deployment and operations project demonstrating how to deploy, secure, monitor, and troubleshoot a web application on a bare Ubuntu server without Docker.
 
